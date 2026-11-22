@@ -1,0 +1,17 @@
+[project]
+name = "word-saver"
+version = "0.1.0"
+description = "Global hotkey to save a word + its context for later card generation"
+readme = "README.md"
+authors = [
+    { email = "rodionkhvorostov@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+word-saver = "word_saver:main"
+
+[build-system]
+requires = ["uv_build>=0.11.25,<0.12.0"]
+build-backend = "uv_build"
